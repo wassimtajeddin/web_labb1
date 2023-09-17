@@ -1,61 +1,39 @@
 [
-     {
-        "title": "The Spy of venice",
-        "price": 49,
-        "author": "William Shakespeare",
-        "imageUrl": "/images/59a8ca184c688.jpg"
-     },
-     {
-      "title": "Tragedies",
-      "price": 39,
-      "author": "William Shakespeare",
-      "imageUrl": "/images/download.jpeg"
-   },
-   {
-      "title": "The Complete works",
-      "price": 59,
-      "author": "William Shakespeare",
-      "imageUrl": "/images/59a8ca184c688.jpg"
-   },
-   {
-      "title": "To Kill a Mockingbird",
-      "price": 29,
-      "author": "Harper Lee"
-    },
-    {
-      "title": "1984",
-      "price": 29,
-      "author": "George Orwell"
-    },
-    {
-      "title": "The Great Gatsby",
-      "price": 29,
-      "author": "F. Scott Fitzgerald"
-    },
-    {
-      "title": "Pride and Prejudice",
-      "price": 19,
-      "author": "Jane Austen"
-    },
-    {
-      "title": "The Catcher in the Rye",
-      "price": 19,
-      "author": "J.D. Salinger"
-    },
-    {
-      "title": "The Hobbit",
-      "price": 19,
-      "author": "J.R.R. Tolkien"
-    },
-    {
-      "title": "To the Lighthouse",
-      "price": 99,
-      "author": "Virginia Woolf"
-    },
-    {
-      "title": "Brave New World",
-      "price": 99,
-      "author": "Aldous Huxley"
-    }
-
+  {
+     "title": "The Spy of venice",
+     "price": 49,
+     "author": "William Shakespeare",
+     "imageUrl": "/images/59a8ca184c688.jpg"
+  },
+  {
+   "title": "Tragedies",
+   "price": 39,
+   "author": "William Shakespeare",
+   "imageUrl": "/images/download.jpeg"
+},
+{
+   "title": "The Complete works",
+   "price": 59,
+   "author": "William Shakespeare"
+},
+{
+   "title": "To Kill a Mockingbird",
+   "price": 29,
+   "author": "Harper Lee"
+ },
+ {
+   "title": "1984",
+   "price": 29,
+   "author": "George Orwell"
+ },
+ {
+   "title": "The Great Gatsby",
+   "price": 29,
+   "author": "F. Scott Fitzgerald"
+ },
+ {
+   "title": "Pride and Prejudice",
+   "price": 19,
+   "author": "Jane Austen"
+ }
 ]
