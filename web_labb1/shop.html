@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Bibliotek - Shop</title>
+    <title>Library - Shop</title>
 
 </head>
 
@@ -24,14 +24,52 @@
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./shop.html">Shop</a></li>
                 </ul>
-                <h1 class="logo">Bibliotek</h1>
+                <h1 class="logo">Library</h1>
             </div>
         </nav>
     </header>
     <main class="container">
-        <h1 style="margin-top: 30px;">Böcker Lista</h3>
-        <div id="dataContainer" class="grid-container">
+        <h1 style="margin-top: 30px;">Books List</h3>
+            <div>
+                <form id="orderForm">
+                    <label for="product">Product:</label>
+                    <input type="text" id="product" name="product" required>
+                
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                
+                
+                    <button type="submit">Send order</button>
+                </form>
+                
+                <div id="confirmationMessage" style="display: none;">
+                    Thanks for your order! We will ship your items soon.
+                </div>
+                
+                <script>
+                    document.getElementById("orderForm").addEventListener("submit", function(event) {
+                        const product = document.getElementById("product").value;
+                        const quantity = document.getElementById("quantity").value;
+                
+                        if (product === "") {
+                            alert("Please write the name of the product.");
+                            event.preventDefault();
+                            return;
+                        }
+                
+                        if (quantity <= 0) {
+                            alert("The quantity has to be more than 0.");
+                            event.preventDefault();
+                            return;
+                        }
+                
+                        document.getElementById("confirmationMessage").style.display = "block";
+                        event.preventDefault(); 
+                    });
+                </script>
             </div>
+        <div id="dataContainer" class="grid-container">           
+        </div>
     </main>
 
 </body>

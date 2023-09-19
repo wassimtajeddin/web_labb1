@@ -189,7 +189,7 @@
     font-size: 35px;
     font-weight: bold;
 }
-.text-centered .button {
+.button {
     text-decoration: none;
     color: #000;
     margin-top: 10px;
@@ -197,7 +197,7 @@
     padding: 20px;
     background-color: rgb(167, 107, 107);
 }
-.text-centered .button:hover {
+.button:hover {
     background-color: rgb(202, 149, 149);
 }
 .text-centered {
